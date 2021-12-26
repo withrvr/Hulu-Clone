@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+	body {
+		@apply bg-primary text-gray-300;
+	}
+}
+
 .link {
-	@apply text-blue-600 hover:underline hover:text-blue-700;
+	@apply text-yellow-600 hover:underline hover:text-yellow-500;
 }

@@ -1,14 +1,12 @@
 <p align="center">
-  <a href="https://boilerplate-nextjs-withrvr.vercel.app/" target="_blank">
-    <img src="./public/favicon.ico" alt="logo" width="200">
+  <a href="#" target="_blank">
+    <img src="./public/favicon.ico.png" alt="logo" width="200">
   </a>
 </p>
 
-<h3 align="center">Nextjs + Tailwindcss + Typescript</h3>
+<h3 align="center"> Hulu Clone </h3>
 
 <div align="center">
-  <p> Boilerplate Code / Template for quick start </p>
-
 <a href="https://github.com/withrvr/Boilerplate-Nextjs/issues/new?template=bug_report.md" target="_blank">Report Bug</a>
 |
 <a href="https://github.com/withrvr/Boilerplate-Nextjs/issues/new?template=feature_request.md" target="_blank">Request Feature</a>
@@ -19,13 +17,11 @@
 
 </div>
 
-# Heading
+# Hulu Clone
 
 ```
 
-Description
-Description
-Description
+Hulu Clone
 
 ```
 
@@ -36,4 +32,4 @@ Description
 
 <!--- ............ declaration of variables ............ -->
 
-[final-result]: https://boilerplate-nextjs-withrvr.vercel.app/
+[final-result]: #
