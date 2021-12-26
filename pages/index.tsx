@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Header from "../components/Header";
 
 export default function Home() {
 	return (
@@ -8,10 +9,18 @@ export default function Home() {
 			</Head>
 
 			<div className="container">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-				pariatur minima expedita repudiandae voluptate provident nihil a
-				iure, beatae, culpa dicta repellat corrupti optio, veniam
-				exercitationem eligendi quia velit magnam.
+				<Header />
+				<div className="text-justify">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+					Voluptatem eum eaque, quasi recusandae corrupti
+					exercitationem quos quisquam reprehenderit molestiae illum
+					magnam sed ad ea corporis, possimus odio doloribus harum
+					incidunt. Lorem ipsum dolor, sit amet consectetur
+					adipisicing elit. Voluptatem eum eaque, quasi recusandae
+					corrupti exercitationem quos quisquam reprehenderit
+					molestiae illum magnam sed ad ea corporis, possimus odio
+					doloribus harum incidunt.
+				</div>
 			</div>
 		</>
 	);
