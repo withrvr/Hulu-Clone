@@ -8,6 +8,7 @@ import {
 	SearchIcon,
 	UserIcon,
 } from "@heroicons/react/outline";
+import Link from "next/link";
 
 const Header = () => {
 	return (
@@ -22,14 +23,19 @@ const Header = () => {
 				<Headeritem title="ACCOUNT" Icon={UserIcon} />
 			</div>
 
-			<Image
-				layout="fixed"
-				objectFit="cover"
-				src="/logo.png"
-				alt="Hulu logo"
-				width={128 * 1.5}
-				height={68 * 1.5}
-			/>
+			<Link href="#navigation">
+				<a>
+					<Image
+						className="cursor-pointer"
+						layout="fixed"
+						objectFit="cover"
+						src="/logo.png"
+						alt="Hulu logo"
+						width={128 * 1.5}
+						height={68 * 1.5}
+					/>
+				</a>
+			</Link>
 		</header>
 	);
 };
