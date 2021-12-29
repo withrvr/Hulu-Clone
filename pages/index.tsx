@@ -1,15 +1,16 @@
 import Head from "next/head";
-import Header from "../components/Header";
-import Navigation from "../components/Navigation";
+
+import Header from "@/home/Header";
+import Navigation from "@/home/Navigation";
 
 export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Hulu</title>
+				<title> Hulu Clone </title>
 			</Head>
 
-			<div className="container">
+			<>
 				<Header />
 				<Navigation />
 
@@ -137,7 +138,7 @@ export default function Home() {
 					eligendi amet, esse quos incidunt voluptate nobis?
 					Obcaecati?
 				</div>
-			</div>
+			</>
 		</>
 	);
 }

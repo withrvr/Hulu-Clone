@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import genresData from "../utils/requests";
+import genresData from "lib/requests";
 
 const Navigation = () => {
 	const router = useRouter();

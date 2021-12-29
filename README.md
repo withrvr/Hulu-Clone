@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="#" target="_blank">
+  <a href="https://hulu-clone-withrvr.vercel.app/" target="_blank">
     <img src="./public/favicon.ico.png" alt="logo" width="200">
   </a>
 </p>
@@ -32,4 +32,4 @@ Hulu Clone
 
 <!--- ............ declaration of variables ............ -->
 
-[final-result]: #
+[final-result]: https://hulu-clone-withrvr.vercel.app/

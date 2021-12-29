@@ -8,7 +8,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 				<link rel="icon" href="/favicon.ico.png" />
 			</Head>
 
-			<main>{children}</main>
+			<main className="container">{children}</main>
 		</>
 	);
 };

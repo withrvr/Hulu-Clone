@@ -1,5 +1,6 @@
 import Image from "next/image";
-import Headeritem from "./Headeritem";
+import Link from "next/link";
+
 import {
 	HomeIcon,
 	LightningBoltIcon,
@@ -8,7 +9,7 @@ import {
 	SearchIcon,
 	UserIcon,
 } from "@heroicons/react/outline";
-import Link from "next/link";
+import Headeritem from "./Headeritem";
 
 const Header = () => {
 	return (
