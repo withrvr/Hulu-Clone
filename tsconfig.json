@@ -2,11 +2,14 @@
 	"compilerOptions": {
 		"baseUrl": ".",
 		"paths": {
+			"@/home/*": ["components/home_components/*"],
+			"@/header/*": ["components/header/*"],
+
 			"@/components/*": ["components/*"],
 			"@/lib/*": ["lib/*"],
 			"@/styles/*": ["styles/*"],
 
-			"@/home/*": ["components/home_components/*"]
+			"@/type/*": ["type/*"]
 		},
 
 		"target": "es5",

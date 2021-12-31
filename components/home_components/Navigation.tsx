@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
-import genresData from "lib/requests";
+
+import requests from "@/lib/requests";
 
 const Navigation = () => {
 	const router = useRouter();
@@ -11,7 +12,7 @@ const Navigation = () => {
 		<div className="sticky top-0 z-50 bg-primary">
 			<nav id="navigation" className="relative ">
 				<div className=" flex space-x-10 md:space-x-15 xl:space-x-20   overflow-x-scroll overflow-y-hidden scrollbar-hide   whitespace-nowrap text-2xl   pt-5 pb-8 pl-3">
-					{Object.entries(genresData).map(([key, { title, url }]) => {
+					{Object.entries(requests).map(([key, { title, url }]) => {
 						const activeNav =
 							genre === key ? " text-white scale-125 " : "";
 

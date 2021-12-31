@@ -9,11 +9,11 @@ import {
 	SearchIcon,
 	UserIcon,
 } from "@heroicons/react/outline";
-import Headeritem from "./Headeritem";
+import Headeritem from "@/header/Headeritem";
 
 const Header = () => {
 	return (
-		<header className="flex flex-col md:flex-row items-center justify-between">
+		<header className="container flex flex-col sm:flex-row items-center justify-between">
 			{/* icons and lables */}
 			<div className="flex flex-grow justify-between max-w-md lg:max-w-lg space-x-3 pt-5 ">
 				<Headeritem title="HOME" Icon={HomeIcon} />
@@ -24,7 +24,7 @@ const Header = () => {
 				<Headeritem title="ACCOUNT" Icon={UserIcon} />
 			</div>
 
-			<Link href="#navigation">
+			<Link href="/#navigation">
 				<a>
 					<Image
 						className="cursor-pointer"
