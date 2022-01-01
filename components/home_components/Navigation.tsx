@@ -9,7 +9,7 @@ const Navigation = () => {
 	// FIXME: if incorrect / random url genre
 
 	return (
-		<div className="sticky top-0 z-50 bg-primary">
+		<div className="sticky top-0 z-10 bg-primary">
 			<nav id="navigation" className="relative ">
 				<div className=" flex space-x-10 md:space-x-15 xl:space-x-20   overflow-x-scroll overflow-y-hidden scrollbar-hide   whitespace-nowrap text-2xl   pt-5 pb-8 pl-3">
 					{Object.entries(requests).map(([key, { title, url }]) => {

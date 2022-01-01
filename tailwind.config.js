@@ -9,18 +9,16 @@ module.exports = {
 			colors: {
 				primary: "#06202A",
 			},
+			screens: {
+				"3xl": "1600px",
+				"4xl": "1800px",
+				"5xl": "2000px",
+				"6xl": "2200px",
+			},
 		},
 		container: {
 			center: true,
 			padding: "1rem",
-		},
-		screens: {
-			sm: "540px",
-			md: "720px",
-			lg: "960px",
-			xl: "1140px",
-			"2xl": "1320px",
-			"3xl": "1600px",
 		},
 	},
 	variants: {

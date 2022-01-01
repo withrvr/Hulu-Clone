@@ -3,7 +3,9 @@ import Head from "next/head";
 
 import NextNProgress from "nextjs-progressbar";
 
+import Tailwindbreakpoints from "@/components/Tailwindbreakpoints";
 import Header from "@/header/Header";
+
 import "@/styles/globals.css";
 
 const App = ({ Component, pageProps }: AppProps) => {
@@ -17,6 +19,8 @@ const App = ({ Component, pageProps }: AppProps) => {
 				// height={3}
 				// showOnShallow={true}
 			/>
+
+			{/* <Tailwindbreakpoints /> */}
 
 			<Head>
 				<title>Default Title</title>
