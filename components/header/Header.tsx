@@ -30,10 +30,10 @@ const Header = () => {
 						className="cursor-pointer"
 						layout="fixed"
 						objectFit="cover"
-						src="/logo.png"
+						src="/logo.svg"
 						alt="Hulu logo"
-						width={128 * 1.5}
-						height={68 * 1.5}
+						width={1000 * 0.13}
+						height={330 * 0.13}
 					/>
 				</a>
 			</Link>
