@@ -4,7 +4,7 @@ type HeroIcon = (props: React.ComponentProps<"svg">) => JSX.Element;
 
 const Headeritem = ({ Icon, title }: { Icon: HeroIcon; title: string }) => {
 	return (
-		<Link href="/#navigation">
+		<Link href="#navigation">
 			<a>
 				<div className="flex flex-col items-center w-8 md:w-9 group hover:text-white cursor-pointer">
 					<Icon className="group-hover:animate-bounce mb-1" />
