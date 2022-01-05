@@ -5,7 +5,7 @@ import { ThumbUpIcon } from "@heroicons/react/outline";
 import ResultsType from "@/type/ResultsType";
 
 const Thumbnail = ({ result }: { result: ResultsType }) => {
-	console.log(result);
+	// console.log(result);
 	const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500";
 
 	const image = `${IMAGE_BASE_URL}${
