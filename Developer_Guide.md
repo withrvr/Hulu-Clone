@@ -17,6 +17,7 @@ $ yarn dev
 -   [Next Js](http://reactjs.org/)
 -   [Tailwind Css](https://tailwindcss.com/)
 -   [Typescript](https://www.typescriptlang.org/)
+-   [TMDB API](https://www.themoviedb.org/)
 
 ## Will Use
 
